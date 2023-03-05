@@ -117,6 +117,9 @@ const Wrap = styled.div`
 
     .gradient {
       padding: 0px 25px;
+      @media screen and (max-width: 900px) {
+        padding: 0px 8px;
+      }
       .typed-cursor {
         opacity: 1;
         animation: typedjsBlink 0.7s infinite;
@@ -153,42 +156,14 @@ const Wrap = styled.div`
       );
       background-size: 100%;
       background-repeat: repeat;
-
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-background-clip: text;
       -moz-text-fill-color: transparent;
       position: relative;
-      /* &::after {
-        content: " Real Estate";
-        animation: letter 5s infinite linear;
-        transition: animation 0.3s;
-      } */
     }
   }
-  /* @keyframes letter {
-    0% {
-      content: " Real Estate";
-    }
-    34% {
-      content: " Real Estate";
-    }
-    35% {
-      content: "Hedge ";
-    }
-    64% {
-      content: "ESG";
-    }
-    65% {
-      content: "ESG";
-    }
-    99% {
-      content: "Crypto";
-    }
-    100% {
-      content: "Crypto";
-    }
-  } */
+
   @media screen and (max-width: 900px) {
     h1 {
       font-size: 2.5em;
@@ -197,7 +172,7 @@ const Wrap = styled.div`
   }
   @media screen and (max-width: 600px) {
     h1 {
-      font-size: 1.7em;
+      font-size: 1.5em;
       text-align: center;
       br {
         display: none;
