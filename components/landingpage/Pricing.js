@@ -183,7 +183,6 @@ const Section = styled.section`
 
         width: 52%;
         border-left: 1px solid #d9d9d9;
-        border-right: 1px solid #d9d9d9;
 
         p {
           font-weight: 500;
@@ -256,7 +255,6 @@ const Section = styled.section`
 
         width: 52%;
         border-left: 1px solid #d9d9d9;
-        border-right: 1px solid #d9d9d9;
 
         p {
           font-weight: 500;
@@ -470,11 +468,6 @@ function Pricing() {
                   <li>Augier fund launch community membership</li>
                 </ul>
               </div>
-
-              <div className="fee-info-container">
-                <h1 className="h1-fixed-color">$20,000</h1>
-                <p className="p-light-color">Setup fee</p>
-              </div>
             </div>
           </Fade>
 
@@ -519,11 +512,6 @@ function Pricing() {
                   <li>Manage your post-formation documents</li>
                   <li>Use tools to manage the operations of your fund</li>
                 </ul>
-              </div>
-
-              <div className="fee-info-container">
-                <h1 className="h1-fixed-color">$1,000</h1>
-                <p className="p-light-color">per year, renews automaticlly</p>
               </div>
             </div>
           </Fade>

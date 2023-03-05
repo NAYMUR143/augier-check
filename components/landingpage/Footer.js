@@ -9,7 +9,7 @@ const FooterDiv = styled.div`
   color: #ececec;
 
   padding: 36px;
-
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

@@ -116,6 +116,7 @@ const Wrap = styled.div`
     padding: 40px 0px 30px;
 
     .gradient {
+      padding: 0px 25px;
       .typed-cursor {
         opacity: 1;
         animation: typedjsBlink 0.7s infinite;
